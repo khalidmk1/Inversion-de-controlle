@@ -3,6 +3,8 @@ package com.khalid.dao;
 public class DaoImpl implements IDao {
     @Override
     public double getData() {
-        return 1;
+        System.out.println("Getting data from database...");
+        double data = 5;
+        return data;
     }
 }
