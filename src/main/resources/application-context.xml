@@ -3,4 +3,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="classDao"  class="com.khalid.dao.DaoImpl"/>
+    <bean id="classMetier" class="com.khalid.metier.MetierImpl" >
+
+<!--        injection de dependance par setter-->
+<!--        <property name="dao" ref="classDao"/>-->
+
+<!--        injection de dependance par constructeur-->
+        <constructor-arg name="dao" ref="classDao" />
+    </bean>
+
 </beans>

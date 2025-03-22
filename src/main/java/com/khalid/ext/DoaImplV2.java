@@ -1,7 +1,9 @@
 package com.khalid.ext;
 
 import com.khalid.dao.IDao;
+import org.springframework.stereotype.Repository;
 
+@Repository("classDaoV2")
 public class DoaImplV2 implements IDao {
 
     @Override
