@@ -2,7 +2,7 @@ package com.khalid.ext;
 
 import com.khalid.dao.IDao;
 
-public class DoaImpV2 implements IDao {
+public class DoaImplV2 implements IDao {
 
     @Override
     public double getData() {

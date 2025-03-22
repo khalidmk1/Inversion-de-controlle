@@ -16,6 +16,7 @@ public class MetierImpl implements IMetier {
 
     @Override
     public double calcul() {
+        System.out.println("Getting calc form Metier...");
         double data = dao.getData();
         double result = data * 23;
         return result;

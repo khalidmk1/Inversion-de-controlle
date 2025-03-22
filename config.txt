@@ -1,0 +1,2 @@
+com.khalid.dao.DaoImpl
+com.khalid.metier.MetierImpl
